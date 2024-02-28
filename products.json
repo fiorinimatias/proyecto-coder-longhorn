@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "ZARPADA GOLDEN",
+        "precio": 2000,
+        "imagen": "golden.png"
+    },
+    {
+        "id": 2,
+        "nombre": "IPA FURIOSA",
+        "precio": 2450,
+        "imagen": "ipa.png"
+    },
+    {
+        "id": 3,
+        "nombre": "HONEY MORTAL",
+        "precio": 2300,
+        "imagen": "honey.png"
+    },
+    {
+        "id": 4,
+        "nombre": "TORMENTA STOUT",
+        "precio": 1900,
+        "imagen": "stout.png"
+    },
+    {
+        "id": 5,
+        "nombre": "SALVAJE APA",
+        "precio": 2350,
+        "imagen": "apa.png"
+    },
+    {
+        "id": 6,
+        "nombre": "WEISS REBELDE",
+        "precio": 2100,
+        "imagen": "weiss.png"
+    }
+]

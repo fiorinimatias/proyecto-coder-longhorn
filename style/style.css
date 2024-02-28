@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url(../font/Poppins-Bold.ttf);
+}
+
+.estiloEdad {
+    font-family: "poppins";
+    color: #30341c;
+}
+
+header {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px -3px 12px 10px rgba(0,0,0,0.35);
+    position:fixed;
+    width: 100%;
+    background-color: #30341c;
+}
+
+header img {
+    height: 5.5rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 85px;
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 9px ), repeating-linear-gradient( #f1f1f155, #f1f1f1 );
+
+}
+
+.producto {
+    background-color: white;
+    padding: 1rem;
+    width: 180px;
+    text-align: center;
+    margin: 0 2rem 0 2rem;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 10px 1px rgba(0,0,0,0.3);
+}
+
+h3 {
+    cursor:default;
+    font-family: "poppins-bold";
+    font-size: 1rem;
+}
+
+p {
+    cursor: default;
+    font-size: .8rem;
+    font-family: "poppins";
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    max-width: 100rem; 
+    transition: transform 0.5s;
+}
+
+.producto img:hover {
+    transform:scale(1.4);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 3rem;
+    font-family: "poppins-bold";
+    color: #dddfbb;
+    position:fixed;
+    bottom: 0;
+    box-shadow: -1px 2px 12px 5px rgba(0,0,0,0.35);
+    cursor: default;
+    background-color: #30341c;
+}
+
+#comprarBtn {
+    margin: 2rem;
+    padding: .4rem;
+    background-color: #dddfbb;
+    color: #30341c;
+    font-family: "poppins";
+}
+
+#comprarBtn:hover{
+    background-color: #30341c;
+    color: #dddfbb;
+    border: solid;
+    font-family: "poppins-bold";
+}
+
+#vaciarBtn {
+    padding: .4rem;
+    background-color: #dddfbb;
+    color: #30341c;
+    font-family: "poppins"
+} 
+
+#vaciarBtn:hover{
+    background-color: #30341c;
+    color: #dddfbb;
+    border: solid;
+    font-family: "poppins-bold";
+}
+
+.swal2-styled {
+    background-color: #30341c !important;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #30341c;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    font-family: "poppins"
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
